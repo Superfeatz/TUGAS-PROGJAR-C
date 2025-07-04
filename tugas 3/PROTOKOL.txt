@@ -50,7 +50,7 @@ UPLOAD
   - data: File berhasil diupload
 - GAGAL:
   - status: ERROR
-  - data: pesan kesalahan (misalnya, "Parameter kurang" jika parameter tidak lengkap)
+  - data: pesan kesalahan
 
 DELETE
 * TUJUAN: untuk menghapus file dari server
@@ -62,4 +62,4 @@ DELETE
   - data: File berhasil dihapus
 - GAGAL:
   - status: ERROR
-  - data: pesan kesalahan (misalnya, "Parameter kurang" atau "File tidak ditemukan")
+  - data: pesan kesalahan (misalnya "File tidak ditemukan")
